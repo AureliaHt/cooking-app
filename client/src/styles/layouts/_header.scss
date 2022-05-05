@@ -1,0 +1,23 @@
+.header_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  width: 100vw;
+
+  h1 {
+    position: relative;
+    font-family: $font-h1;
+    font-size: 5rem;
+
+    &::before {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: -9px;
+      background-color: $color-font;
+      width: 30%;
+      height: 3px;
+    }
+  }
+}
