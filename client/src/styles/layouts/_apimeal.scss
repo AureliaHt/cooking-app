@@ -1,7 +1,32 @@
-.recipes_container {
+.body_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.searchbar_container {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100vw;
+    height: 12vh;
+    margin-top: 3rem;
+}
+
+input {
+        width: 28rem;
+        height: 2.5rem;
+        margin-left: 2rem;
+        border-radius: 30px;
+        border: transparent;
+        outline: none;
+        padding: 0 20px;
+    }
+
+.recipes_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 100vw;
     margin-top: 3rem;
 }
